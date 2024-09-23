@@ -30,15 +30,15 @@ const OrderBook: FC = () => {
         <OrderBookAggregationSelect />
       </Box>
       <Divider borderColor={Colors.Neutral[700]} marginY={4} />
-      <div className="order-book-columns">
-        <div className="bids">
+      <div>
+        <div>
           <Heading color={Colors.Neutral[500]} fontWeight={600} size={"md"}>
             Bids
           </Heading>
           <OrderBookBidsTable />
         </div>
         <Divider borderColor={Colors.Neutral[700]} marginY={4} />
-        <div className="asks">
+        <div>
           <Heading color={Colors.Neutral[500]} fontWeight={600} size={"md"}>
             Asks
           </Heading>
