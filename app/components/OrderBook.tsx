@@ -10,7 +10,15 @@ const OrderBook: FC = () => {
   const { loading } = useAppSelector((state) => state.tickerChannel);
 
   return (
-    <Box backgroundColor={Colors.Neutral[800]} color={"white"} padding={4}>
+    <Box
+      maxW={"600px"}
+      width={"100%"}
+      marginX={"auto"}
+      backgroundColor={Colors.Neutral[800]}
+      color={"white"}
+      padding={4}
+      marginTop={8}
+    >
       <Box
         display={"flex"}
         flexDir={{ base: "column", md: "row" }}
